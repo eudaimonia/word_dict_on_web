@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>My_Captain</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+
+
+	<!-- Tooltip classes -->
+    <link rel="stylesheet" href="{{ css_dir }}/tip-yellow/tip-yellow.css" type="text/css" />
+	<link rel="stylesheet" href="{{ css_dir }}/tip-violet/tip-violet.css" type="text/css" />
+	<link rel="stylesheet" href="{{ css_dir }}/tip-darkgray/tip-darkgray.css" type="text/css" />
+	<link rel="stylesheet" href="{{ css_dir }}/tip-skyblue/tip-skyblue.css" type="text/css" />
+	<link rel="stylesheet" href="{{ css_dir }}/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+	<link rel="stylesheet" href="{{ css_dir }}/tip-twitter/tip-twitter.css" type="text/css" />
+	<link rel="stylesheet" href="{{ css_dir }}/tip-green/tip-green.css" type="text/css" />
+
+	<!-- jQuery and the Poshy Tip plugin files -->
+    <script type="text/javascript" src="{{ js_dir }}/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="{{ js_dir }}/jquery.poshytip.js"></script>
+
+    <script type="text/javascript">
+    $(function() {
+        $('.vocal_tip').poshytip();
+    }
+	</script>
+</head>
+
+<body>
+    {{ content }}
+</body>
+</html>
